@@ -58,6 +58,7 @@ E clico no botao adicionar carrinho
     Element Text Should Be    css=span[class='precoPor_prod']    R$ 291,47
     Click Element    id=ContentSite_lbtBuy
     Click Element    xpath=//a[normalize-space()='18']
+    Wait Until Element Is Visible    id=btConfirmShippingData
     Click Element    id=btConfirmShippingData
 Entao sou direcionado para o carrinho de compras
     Element Text Should Be    xpath=//a[normalize-space()='Buquê Fascínio de Rosas Colombianas Vermelhas']    Buquê Fascínio de Rosas Colombianas Vermelhas
